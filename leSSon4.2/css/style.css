@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Vollkorn:wght@500&display=swap');
+* { margin:0; 
+    padding:0;
+    outline: none;
+}
+html { height: 100%;
+}
+
+body { 
+    width: 1440px;
+    height: 2770px;
+    left: 0;
+    top: 0;
+	color:#a29ea5;
+	background: #fafafa;
+    font-family:Vollkorn sans-serif;
+}
+
+.clear::before,
+.clear::after{
+    content:"" ;
+    display: table;
+    clear: both;
+}
+.iconlogo{
+    display: block;
+    float: left;
+    margin:70px 5px 70px 190px;
+}
+ul li{
+ display: inline-block;
+   padding-right: 30px;
+   margin-top: 83px;  
+}
+ul li:last-child{
+    padding-right: 0;
+}
+
+ul li:first-child{
+    margin-left: 295px;
+}
+a:hover {
+    background-color: #9c9ca3;
+}
+a{text-decoration: none;
+    color: #141314;
+    font-size: 18px;
+    font-family:Vollkorn sans-serif;
+    text-align: center;
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 5px;
+ }
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+button{
+    width: 345px;
+    height: 67px;
+    background: #9c9ca3;
+    border-radius: 10px; border: solid #9c9ca3;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:Montserrat Alternates sans-serif ;
+    display: block;
+    float:left;
+    margin-top: 20px;
+}
+ .left{float: left;}
+.right{ float: right; }
+.clear{clear:both}
+
+.img-block{
+   width: 610px;
+   height: 500px;
+   margin: 0px 190px 44px 0px;
+}
+.text-block{
+   width: 450px;
+   height: 500px;
+   margin: 22px 0px 44px 189px ;
+}
+h1{
+    color: black;
+    font-size: 70px;
+    font-family: Vollkorn sans-serif ;
+    padding: 6px;
+    text-align:left;
+    margin-top: 82px;
+    margin-bottom: 22px;
+}
+p{
+    color: black;
+    font-size: 24px;
+    font-family:Montserrat Alternates sans-serif;
+    text-align:left;
+ }
+ .your {
+color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family:Montserrat Alternates sans-serif;
+    margin-bottom: 133px ;
+ }
+.headlines-block {
+    display: block;
+    width: 1085px;
+    height: 100px;
+    margin:44px 5px 14px 190px;
+    font-family: Montserrat Alternates sans-serif;
+    font-size: 36px;
+    text-align:left;
+}
+ .img-block2{
+    width: 250;
+    height: 333px;
+    margin: 14px 190px 20px 13px;
+ }
+ .text-block2{
+    width: 785px;
+    height: 247px;
+    margin: 14px 0px 10px 190px;
+    font-family: Vollkorn sans-serif;
+    line-height: 22,5px;
+}
+ h3{
+     color: black;
+     font-size: 36px;
+    font-family: Vollkorn sans-serif;
+    line-height: 50px;
+ }
+ .img-block3{
+    width: 340px;
+    height: 338px;
+    margin: 14px 190px 20px 20px;
+ }
+ .text-block3{
+    width: 669px;
+    height: 298px;
+    margin: 20px 0px 14px 189px;
+    font-family: Vollkorn sans-serif;
+    line-height: 55,5px;}
+span.vactione{
+    color: rgb(0, 0, 0);
+    font-size:22px;
+    line-height: 22px;
+    font-family:Montserrat Alternates sans-serif;
+}
+#vact{
+    margin-bottom: 60px ;
+}
+#price{
+    margin-bottom: 80px ;
+}
+span.price{
+    color: rgb(0, 0, 0);
+    font-size:24px;
+    line-height: 22px;
+    font-family:Montserrat Alternates sans-serif;
+}
+.wrapper{
+     width:1440px;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-size:14px;
+    line-height: 14spx;
+    font-family:Montserrat Alternates sans-serif;
+}
+.block{
+    margin-left: 190px;
+    margin-right: 192px;
+}
+.block_row{
+   display:flex;
+   flex-wrap: wrap;
+justify-content: space-between;   
+}
+.contacts h4{
+    color: black;
+    font-size: 24px;
+    font-family: Vollkorn sans-serif ;
+    margin-top: 85px;
+    text-align:center;
+}
+p.foot{
+    font-size:18px;
+    line-height: 22px;
+    font-family:Montserrat Alternates sans-serif;
+    margin-left: 123px;
+    margin-top: 60px;
+}
+
+.block2{
+    margin-left: 190px;
+    margin-right: 192px;}
+.block_row2{
+    display:flex;
+    justify-content:flex-start;
+    font-size:18px;
+    line-height: 22px;
+    font-family:Montserrat Alternates sans-serif;}
+.footVect{
+    margin-top: 60px;
+    margin-left: 116px;
+}
+ 
