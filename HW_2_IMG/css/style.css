@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+.wrapper{
+    height: 3452px;
+    width: 1024px;
+    margin: auto;
+}
+img {display: block;
+    max-width: 100%;
+    height: auto;
+
+    }
+
+.first-block__text{
+    font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.25px;
+font-weight: bold;
+font-family: domine;
+margin:23px 23px 23px 0px;
+
+}
+.img__one {
+    width: 1023px;
+    height: 652px;
+    margin-left: 24px;
+    margin-right: auto;
+   
+}
+.first-block__textbottom{
+    font-size: 14px;
+    font-family: domine;
+margin-top:-23px ;
+}
+.second-block__text{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+    font-family: domine;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+} 
+.third-block__text{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+    font-family: domine;
+    text-align: center;
+    margin: 24px 24px 24px;
+    
+    text-align: right;
+}
+.img__second{
+    width: 767px;
+    height: 490px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.third-block__textbottom{
+    font-size: 14px;
+    font-family: domine;
+margin-top:0.5px ;
+text-align: center; 
+}
+.four-block__text{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+    font-family: domine;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 0.5px;
+}
+.five-block__text{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+    font-family: domine;
+    text-align: left;
+    margin-top: 28.5px;
+    margin-bottom: 7px;
+    margin-left: 24px;
+}
+.five-block__textbottom{
+    font-size: 14px;
+    font-family: domine;
+    margin-top:6px ;
+    margin-left: 24px;
+}
+.six-block__text{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+    font-family: domine;
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 19px;
+    margin-left: 24px;
+}
+.svn-block__text{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+    font-family: domine;
+    text-align: left;
+    margin-top: 36px;
+    margin-bottom: 18px;
+    margin-left: 24px;
+}
+.img__four{
+    margin-left: 24px;
+}
+.img__five{
+    margin-left: 24px;
+    margin-bottom: 45px;
+
+}
