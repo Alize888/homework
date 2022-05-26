@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital@1&display=swap');
+.wrapper{
+    width: 1440px;
+    height: 3485px;
+    margin: 0 auto;
+   color: #C9D6DF; 
+}
+.frame1{
+background-image: url(../img/i4\ 1.jpg);
+min-width: 500px;
+width: 1440px;
+height: 650px;
+margin: auto;
+font-family: Montserrat;
+}
+.header{
+width: 1440px;
+height: 90px;
+}
+.header>div{
+    display: inline-block;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+ 
+ }
+ .logo img{
+    
+     width: 30px;
+     height: 30px;
+     margin-top: 17px;
+     margin-left: 100px;
+ }
+li{
+    display: inline;
+
+}
+ .menuhrefs{
+    display: inline-block;
+    font-family: Montserrat;
+    width: 360px;
+    margin-left: 400px;
+ }
+ .menuHrefs a {
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #C9D6DF;
+    }
+    .menuHrefrigth{
+    margin-top: 30px;
+    margin-left: 450px;
+    }
+
+    a{ 
+        padding: 5px;
+        border-radius: 5px;
+        margin-right: 5px;
+        color: #C9D6DF;
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: #747a95;}
+.menuHrefs a:hover {
+        background-color: #747a95;}
+.menu hr {
+    width: 500px;
+    max-width: 100%;
+     margin-top: 5px;
+    margin-bottom: 10px;}
+
+.grey{width: auto;
+    height: 1100px;
+    background-color: #52616B;
+    padding-top: 129px;
+    position: relative;
+}
+#pict1{width: 1195px;
+    height: 500px;
+    left: 15px;
+    top: 5px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+    background-image: url(../img/the\ 8\ 1.jpg);
+}
+.pictureleft{
+    display: inline-block;
+    width: 590px;
+    height: 341px;
+    background-image: url(../img/the\ 5\ 1.jpg);
+    margin-left: 122px;
+    margin-right:6px;
+   
+}
+.pictureright{
+    display: inline-block;
+    width: 590px;
+    height: 341px;
+    background-image: url(../img/the\ x7\ 2.jpg);
+    margin-left: 6px;
+}
+.grey p{
+    font-size: 34px;
+   padding-top: 19px;
+   margin: 0 ;
+   margin-left: 88px;
+}
+
+.imgone{
+    background-image: url(../img/bmw\ of\ dream\ 1.jpg);
+    background-color: #52616B;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 630px;
+    margin-top: 97px;
+}
+h3{
+    text-align: center;
+    font-size: 45px;
+    font-family: Montserrat;
+
+}
+button{
+    margin: 0 auto;
+    display: block;
+    height: 65px;
+    width: 327px;
+    background-color: #1E2022;
+    color:#C9D6DF;
+    font-size: 24px;
+    font-family: Montserrat;
+    border: none;
+    margin-top: 450px;
+}
+.app{background-image: url(../img/bmw-my-bmw-app-lp-cp-xxl\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 630px;
+    
+}
+.app img{
+    display: inline-block;
+    width: 100px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.app p{
+    text-align: center;
+    display: inline-block;
+    font-family: Montserrat;
+}
+.footer{
+    height: 380px;
+    background-color: #1E2022;
+    font-family: Montserrat;
+    line-height: 22px;
+    padding-top: 52px;
+    margin-top: -2px ;
+
+}
+.Difference{
+    display: inline-block;
+    width: 200px;
+    margin-left: 99px;
+}
+.Partnerships{
+    display: inline-block;
+    width: 200px;
+    margin-left: 99px;
+}
+.Shopping{
+    display: inline-block;
+    width: 200px;
+    margin-left: 99px;
+}
+.Social{
+    display: inline-block;
+    width: 200px;
+    margin-left: 99px;
+}
+.icon__back{
+    display: inline-block;
+}
