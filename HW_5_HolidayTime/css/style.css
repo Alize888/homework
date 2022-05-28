@@ -1,0 +1,270 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
+
+.wrapper{
+    display: block;
+    margin: 0 auto;
+   height: 3900px;
+    width: 1490px;
+    background-color: #BDBDC6;
+}
+header{
+    background-color: #202846;
+    overflow: auto;
+    padding: 10px 0;
+}
+.right {float: right}
+.left {float: left }
+.clear{clear: both} 
+
+li.header__navigation-item{
+    list-style: none;
+    float: left;
+    padding: 10px 0;
+    margin-right: 30px;
+}
+li.header__navigation-item:not(:last-of-type){
+    padding-top: 24px;
+    padding-right: 32px;
+    border-radius: 30px;
+    border-right: #FFFFFF solid 2px;
+}
+.header__navigation{
+    
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.logo{
+    float: left;
+}
+.logo__globus{
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.text__block_violet{
+    height: 140px;
+    padding-left: 227px;
+    background-color: #C6C6DC;
+    font-family: PT Sans;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 140px;
+}
+.block__point{
+    height: 73px;
+    background-color: #E8E8E8;
+    color: #0000009C;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    line-height: 73px;
+   
+}
+.block__point::after{
+    content: "\27A4";
+    float: right;
+    margin-right: 15px;
+}
+.block__select_house{
+    display: block;
+    margin: 0 auto;
+    width: 1490px;
+    background-color: #BDBDC6;
+    position: relative;
+}
+.card__house{
+   display: inline-block;
+    margin-bottom: 36px;
+    margin-left: 103px;
+    border-bottom: #F5F5F5 solid 30px;
+    position: relative;
+}
+.card__house:hover{
+    background-color: #AEAEE2;
+}
+.card__img{
+    margin: 0 auto;
+    float: left;
+    width: 485px;
+    height: 244px;
+    margin: 28px  ;
+    padding-top: 28px;
+    
+}
+.discriptions{
+    display: block;
+    float: right;
+    width: 712px;
+    height: 184px;
+   
+}
+h4{ 
+    font-size: 36px;
+    font-family: PT Sans;
+    font-style: italic;
+    margin: 30px 0px 12px 102px;
+}
+h4::after{
+    content: "\2606";
+    float: right;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.discriptions p{
+    display: block;
+    width: 586px;
+    font-size: 22px;
+    text-align: center;
+    font-family: PT Sans;
+    line-height: 28px;
+    color: #202846;
+    background-color: #D7D7DD;
+    border-top: #202846 solid 4px;
+    margin:0 100px  ;
+    padding: 22px;
+    
+}
+.card__house button{
+    display: block;
+    width: 170px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #202846;
+    color: #FFFFFF;
+    font-family:PT Sans ;
+    font-size: 24px;
+    position: relative;
+    bottom: 50px;
+    left: 712px;
+}
+.card__house button:hover{
+    background-color: brown;
+}
+.fix__btn{
+    position: absolute;
+    top: 1260px;
+    left: 1495px;
+}
+.fix__btn_arrow{
+    position: absolute;
+    top: 1280px;
+    left: 1530px;
+    z-index: 2;
+}
+.client__card{
+    height: 440px;
+background-color: #BDBDC6;
+}
+.client__photo{
+    display: inline-block;
+    width: 530px;
+    height:381px;
+    margin-left: 140px;
+
+}
+.client__photo button{
+    display: block;
+background-color: #69749B;
+font-size: 24px;
+width: 220px;
+height: 50px;
+border-radius: 25px;
+color: #FFFFFF;
+margin-top: 22px;
+}
+.client__photo button:nth-of-type(2)
+{
+    background-color: #484A54;
+
+}
+.client__contacts{
+    display: inline-block;
+    font-family:PT Sans ;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: bold;
+   
+}
+.client__contacts a{
+    text-decoration: none;
+    color: #202846;
+    text-transform: none;
+}
+li{list-style-type: none;
+
+}
+
+div li span{
+    font-weight: normal;
+}
+.central__btn{
+    text-align: center;
+    background-color:#F5F5F5;
+    padding-top: 40px;
+    padding-bottom: 132px;
+
+}
+.central__btn button{
+    background-color:#202846;
+    font-size: 27px;
+    color: #FFFFFF;
+    width: 170px;
+    height: 60px;
+    border-radius: 30px;
+}
+.maps__sections{
+    display: block;
+    height: 690px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+}
+
+.maps__sections article p{
+    display: block;
+font-size: 30px;
+text-align: center;
+}
+article{
+    float: left;
+    width: 31%;
+    padding-left: 131px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-family:PT Sans ;
+    line-height: 32px;
+}
+.maps__adress{
+    float: left;
+    width: 45%;
+    font-size: 32px;
+    font-family: PT Sans;
+    margin-left: 38px;
+    margin-top: 52px;
+}
+iframe{
+    float: right;
+    width: 45%;
+    height: 335px;
+    margin-right: 38px;
+    border-radius: 50px;
+}
+footer{
+    height: 90px;
+    background-color: #202846;
+    font-size: 26px;
+    font-family: PT Sans;
+    font-style: italic;
+    line-height: 32px;
+    color: #FFFFFF;
+
+    padding-top: 30px;
+}
