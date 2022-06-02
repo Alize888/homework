@@ -1,0 +1,278 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
+
+.wrapper{
+    margin: 0 auto;
+    width: 1490px;
+    background-color: #F5F5F5;
+}
+header{
+    background-color: #202846;
+    overflow: auto;
+    padding: 10px 0;
+}
+.right {float: right}
+.left {float: left }
+.clear{clear: both} 
+
+li.header__navigation-item{
+    list-style: none;
+    float: left;
+    padding: 15px 0;
+    margin-right: 30px;
+}
+li.header__navigation-item:not(:last-of-type){
+    padding-top: 24px;
+    padding-right: 32px;
+    border-right: #FFFFFF solid 2px;
+
+}
+.header__navigation{
+    
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.logo{
+    float: left;
+}
+.logo__globus{
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.text__block_violet{
+    height: 140px;
+    padding-left: 227px;
+    background-color: #C6C6DC;
+    font-family: PT Sans;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 140px;
+}
+.block__point{
+    height: 73px;
+    background-color: #E8E8E8;
+    color: #0000009C;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    line-height: 73px;
+    margin-top: 0;
+    margin-bottom: 56px;
+   
+}
+.block__point::after{
+    content: " \25BC";
+    float: right;
+    margin-right: 15px;
+}
+.block__point :hover{
+    background-color: yellow;
+}
+.block_row{
+    display: flex;
+    background-color:  #F5F5F5;
+    margin-bottom:177px;
+}
+
+h4{ 
+    font-size: 36px;
+    font-family: PT Sans;
+    font-style: italic;
+    margin-top: 27px;
+    margin-bottom: 0;
+
+} 
+h4::after{
+    content: "\2606";
+    float: right;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+h4::after:hover{
+    background-color: yellow;
+}
+hr{
+    height: 3px;
+
+}
+.block__select_house{
+background-color: #BDBDC6;} 
+.card__house{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: #BDBDC6;
+        padding-left: 102px;
+        padding-right: 87px;
+ }
+.card__house:hover{
+        background-color: #AEAEE2;
+ }
+.card__img{margin-right: 102px;
+ }
+
+.discriptions p{
+        
+            width: 712px;
+            font-size: 22px;
+            text-align: center;
+            font-family: PT Sans;
+            line-height: 28px;
+            color: #202846;
+            background-color: #D7D7DD;
+            padding: 22px 0;
+ }
+.card__house button{
+            display: block;
+            width: 170px;
+            height: 60px;
+            border-radius: 30px;
+            background-color: #202846;
+            color: #FFFFFF;
+            font-family:PT Sans ;
+            font-size: 24px;
+            position: relative;
+            bottom: 50px;
+            left: 712px;
+}
+.card__house button:hover{
+            background-color: brown;
+}
+.client__card{
+            display: flex;
+            height: 440px;
+        background-color: #F5F5F5;
+}
+.client__photo{
+            display: inline-block;
+            width: 530px;
+            height:363px;
+            padding-top: 77px;
+            padding-left: 140px;
+            background-color: #BDBDC6;
+
+}
+.client__photo img{
+            border-radius: 90px;
+}
+.client__photo button{
+            display: block;
+        background-color: #69749B;
+        font-size: 24px;
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;
+        color: #FFFFFF;
+        margin-top: 22px;
+}
+.client__photo button:nth-of-type(2)
+        {
+ background-color: #484A54;
+ }
+.client__contacts{
+            display: inline-block;
+            font-family:PT Sans ;
+            font-style: italic;
+            font-size: 36px;
+            font-weight: bold;
+            background-color: #BDBDC6;
+            padding-right: 20px;
+            padding-bottom: 35px;
+ }
+.client__contacts a{
+            text-decoration: none;
+            color: #202846;
+            text-transform: none;
+}
+.client__contacts ul{
+            padding-left: 0;
+}
+.client__contacts hr{
+            margin-bottom: 0;
+}
+li{list-style-type: none;
+ }
+        
+div li span{
+            font-weight: normal;
+}
+.central__btn{
+            text-align: center;
+            background-color:#F5F5F5;
+            padding-top: 40px;
+            padding-bottom: 132px;
+}
+section{
+            background-color: #F5F5F5;
+            padding-top: 41px;
+            padding-left: 102px;
+            padding-right: 82px;
+}
+.central__btn button{
+            background-color:#202846;
+            font-size: 27px;
+            color: #FFFFFF;
+            width: 170px;
+            height: 60px;
+            border-radius: 30px;
+}
+.maps__sections{
+            display: block;
+            height: 690px;
+            background-color: #F5F5F5;
+            margin: 0 auto;
+        }
+        
+.maps__sections article p{
+            display: block;
+        font-size: 30px;
+        text-align: center;
+        }
+article{
+            float: left;
+            width: 31%;
+            padding-left: 131px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 30px;
+            font-family:PT Sans ;
+            line-height: 32px;
+}
+article hr{
+            color: #FFFFFF;
+}
+.maps__adress{
+            float: left;
+            width: 398px;
+            font-size: 32px;
+            font-family: PT Sans;
+            margin-left: 138px;
+            margin-top: 72px;
+}
+iframe{
+            float: right;
+            width: 578px;
+            height: 335px;
+            margin-top: 52px;
+            margin-right: 138px;
+            border-radius: 50px;
+}
+footer{
+            height: 90px;
+            background-color: #202846;
+            font-size: 26px;
+            font-family: PT Sans;
+            font-style: italic;
+            line-height: 32px;
+            color: #FFFFFF;
+        padding-left: 130px;
+            padding-top: 30px;
+        }
+        
