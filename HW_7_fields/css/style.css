@@ -1,0 +1,102 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+.wrapper{
+    min-width: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Public Sans';
+}
+.wrapper_flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+input{
+    width: 390px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 31px;
+}
+
+select{
+    width: 392px;
+}
+.left__field{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 32px;
+}
+.right__field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+p span{
+    color: red;
+}
+label span{
+    color: red;
+}
+#intake{
+    padding: 6px;
+    margin-bottom: 22px;
+}
+#date{
+    margin-top: 22px;
+}
+#app{
+    color: blue;
+   
+}
+#check,#check2{
+    margin-left: 0;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+#check2{
+margin-top: 130px;
+
+}
+#paternity,#form2,#enroll,#other,#app
+{
+    width: 424px;
+    padding: 6px;  
+}
+#form2{
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
+
+h2{
+    padding-right: 100px;
+}
+.btn1 button{
+    height: 35px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid rgba(173, 173, 173, 1);
+    border-left: none;
+    background-color: white;
+}
+
+form{width: 424px;
+    position: relative;
+}
+#next {
+    background-color: rgba(0, 80, 216, 1);
+    color: white;
+    width: 70px;
+    height: 40px;
+    float: right;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 110px;
+}

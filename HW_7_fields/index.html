@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intake Main Flow</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+
+    <div class="wrapper">
+        <h2>
+            Intake Main Flow
+        </h2>
+        <p><span>*</span> Mandatory field</p>
+            
+        <!-- Information -->
+        <h3>Information</h3>
+        <div class="wrapper_flex">
+
+    
+        <div class="left__field">
+            <label for="Intake"  required >
+                <p> Type<span>* (select)</span></p></label>
+            <select name="Intake" id="intake">
+              <option>Referral</option>
+              <option value=""></option>
+            
+    
+            </select> 
+            <form action="#">
+    <label for="phone"><p>phone</p></label>
+                <input type="tel">
+            </form>
+            <div>
+                <label for="email"><p>email</p></label>
+                <input type="email" name="email" required>
+              </div>
+
+    <div>
+    <label for="app">
+    <p>Application Registration (Optional)</p></label>
+    <select name="app" id="app">
+        <option value="">APP0000116</option>
+        <option value="">APP0000117</option>
+        <option value="">APP0000118</option>
+    </select>
+</div>
+<div>
+    <p>Additional Information Requested Date (Optional)</p>
+    <input type="date" id="date">
+</div>
+<div>
+    <p>Remaining Days Before Referral is Purged (Optional)</p>
+    <input type="text">
+</div>
+<div>
+    <p>Fee Payment Date (Optional)</p>
+    <input type="date" id="date">
+</div>
+<div>
+    <input type="checkbox" id="check" >Application Fee Processed
+</div>
+    </div>
+ <div>
+ <div class="right__field">
+                    <form action="#">
+                        <label for="date">Enrollment Initiation Date jquery</label>
+                        <input type="date" name="" id="date">
+                    </form>
+                    <form action="#">
+                        <label for="form2">Application Category<span>*</span></label><br>
+                            <select name="" id="form2">
+                                <option value="">Child Support</option>
+                                <option value=""></option>
+                            </select>
+                        
+                    </form>
+                    <form action="#">
+                        <label for="date">Enrollment Submission Date (Optional)</label>
+                        <input type="date" name="" id="date">
+                    </form>
+                    <div>
+                        <input type="checkbox" id="check2">Purged
+                    </div>
+                    <div>
+                        <label for="">
+                            <p>Exempt from Paternity (Optional)   (select)</p>
+                        </label>
+                        <select name="paternity" id="paternity">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">
+                            <p>
+                                Enrollment Status (Optional)
+                            </p>
+                        </label>
+                        <select name="" id="enroll">
+                            <option value=""></option>
+                            <option value="">Worklisted</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <!-- Maternit Information -->
+    <div>
+        <hr>
+        <h2>Maternity Information</h2> 
+     </div>
+    <div class="wrapper_flex">
+        <div class="left__field">
+            <div>
+                <input type="checkbox" id="check" >Are you requesting child support services for an<br>
+                unborn child?
+            </div>
+    </div>
+    <div class="right_field">
+        <div>
+            <label for="">
+                <p>Other known biological parent? (Optional)</p>
+            </label>
+            <select name="" id="other">
+            <option value=""></option>
+            <option value="">None</option>
+        </select>
+          </div>
+    </div>    
+  
+        
+
+     </div>
+     <!-- Official Use -->
+     <hr>
+     <h2>Official Use</h2>
+     <div class="wrapper_flex">
+         <div class="left_field">
+            <div>
+                <label for="">
+                    <p>Case Category (select)</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">Active IV-A</option>
+            </select>
+              </div>
+              <div>
+                <label for="">
+                    <p>Arrears Only Indicator (Optional)</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">None</option>
+            </select>
+              </div>
+              <div>
+                <label for="">
+                    <p>Assigned County of Ownership (Optional)</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">None</option>
+            </select>
+              </div>
+              <div>
+                <label for="">
+                    <p>Intergovermental Case Status (details)</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">None</option>
+            </select>
+              </div>
+              <div>
+                <label for="">
+                    <p>Special Handling Indicator for Applicant (Optional)</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">None</option>
+            </select>
+              </div>
+              <div>
+                <label for="">
+                    <p>Special Handling Indicator for Other Parent
+                        (Optional)</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">None</option>
+            </select>
+              </div>
+
+
+         </div>
+         <div class="right_field">
+            <div>
+                <label for="">
+                    <p>IV-D Indicator*</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">Non-IV-D</option>
+            </select>
+              </div>
+              <div>
+                <label for="">
+                    <p>Intergovernmental Case Category (Optional)</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">None</option>
+            </select>
+              </div>
+              <div>
+                <label for="">
+                    <p>Intergovernmental Case Type (Optional)</p>
+                </label>
+                <select name="" id="other">
+                <option value=""></option>
+                <option value="">None</option>
+            </select>
+              </div>
+
+              <div class="btn1">
+                  <p>Case Number</p>
+                <form>
+                    <input type="search" placeholder="Search Case Number">
+                    <button type="submit"><img src="../HW_7_fields/img/Vector.png" alt=""></button>
+                    
+                    </form>
+              </div>
+              <div class="btn1">
+                <p>Referral Number</p>
+              <form>
+                  <input type="search" placeholder="Search Referral Number">
+                  <button type="submit"><img src="../HW_7_fields/img/Vector.png" alt=""></button>
+                  
+                  </form>
+            </div>
+         </div>
+     </div>
+     <!-- System Information -->
+<hr>
+<h2>System Information</h2>
+
+<div class="wrapper_flex">
+    <div class="left_field">
+        <div class="btn1">
+            <p>Enrollment Taken by User</p>
+          <form>
+              <input type="search" placeholder="Search Input">
+              <button type="submit"><img src="./img/Vector.png" alt=""></button>
+              
+              </form>
+        </div>
+        <div class="btn1">
+            <p>Worker (Optional)</p>
+          <form>
+              <input type="search" placeholder="Search Input">
+              <button type="submit"><img src="./img/Vector.png" alt=""></button>
+              
+              </form>
+        </div>
+    </div>
+    <div class="right_field">
+        <div class="btn1">
+            <p>Intake Supervisor (Optional)</p>
+          <form>
+              <input type="search" placeholder="Search">
+              <button type="submit"><img src="./img/Vector.png" alt=""></button>
+              
+              </form>
+        </div>
+        <div class="btn1">
+            <p>Owner (Optional)</p>
+          <form>
+              <input type="search" placeholder="Search Case Number">
+              <button type="submit"><img src="./img/Vector.png" alt=""></button>
+              
+              </form>
+        </div>
+    </div>
+</div>
+<hr>
+<button type="submit" id="next">Next</button>
+</body>
+</html>
