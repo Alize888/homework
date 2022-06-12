@@ -15,14 +15,14 @@ body{
 
 }
 input{
-    width: 390px;
+    width: 424px;
     padding-top: 6px;
     padding-bottom: 6px;
     margin-bottom: 31px;
 }
 
 select{
-    width: 392px;
+    width: 424px;
 }
 .left__field{
     display: flex;
