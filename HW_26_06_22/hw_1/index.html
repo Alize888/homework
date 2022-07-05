@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java1</title>
+</head>
+<body>
+    <script>
+		var x=6;
+        var y=14;
+        var z=4;
+		var a = (x += y - x++ * z) ;
+		/*
+		 x++ (6)
+		 x * z (6*4=24)
+		 y - x (14-24=-10)
+		 x += x (-10+6=-4)
+		*/
+
+		document.write(a + "<br />");
+
+        var x=6;
+        var y=14;
+        var z=4;
+        var a = (z = --x - y * 5 );
+        /*
+		 --x (5) декремент
+		 y * 5 (70)
+		 x - y (-65)
+        */
+        document.write(a + "<br />");
+
+        var x=6;
+        var y=14;
+        var z=4;
+		var a = (y /= x + 5 % z);
+		 /*
+		 5 % z (1)
+		 x + z (7)
+		 y /= 7 (2)
+		 */
+
+		document.write(a + "<br />");
+
+        var x=6;
+        var y=14;
+        var z=4;
+		var a = (z -= x++ + y * 5);
+
+		/*
+		 x++ (6)
+		 y * 5 (70)
+		 x + y (76)
+		 z -= 76 (-72)	
+		*/
+		document.write(a + "<br />");
+
+        var x=6;
+        var y=14;
+        var z=4;
+		var a = (x = y - x++ * z);
+
+		/*
+		 x++ (6)
+		 x * z (24)
+		 y - 24 (-10)		
+		*/
+		document.write(a + "<br />");
+	</script>
+    </body>
+</html>
