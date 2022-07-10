@@ -1,0 +1,127 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Java2</title>
+</head>
+
+<body>
+
+
+  <script>
+    //три переменные для сбора данных пользователя.
+    var name = prompt("Введите имя");
+    var lastName = prompt("Введите фамилию");
+    var age = parseInt(prompt("Введите возраст"));
+    document.write("name: " + name +'<br/>', "lastName: "+ lastName + '<br/>', "age: "+ age + '<br/>')
+</script>
+
+<script>
+  //  3 числа и среднее арифметическое
+  var number1 = parseInt(prompt("Введите 1-е число")); 
+  var number2 = parseInt(prompt("Введите 2-е число"));
+  var number3 = parseInt(prompt("Введите 3-е число"));
+  var arithmeticRes = (number1 + number2 + number3)/3;
+  document.write("среднеарифметическое: " + arithmeticRes + '<br/>' )
+</script>
+
+<script>
+  var value = confirm("direct");
+  document.write(value + '<br/>')
+</script>
+
+<script>
+var age = parseInt(prompt("Введи свой возраст", '16-18'));
+adult = (age < 17) ? 'Еще чуток подрасти ' : 
+ (age == 17) ? 'Еще годик' :  
+ (age >= 18) ? 'welcome' : 'пока';
+document.write(adult + '<br/>');
+</script>
+<script>
+  let a, b, result;
+  a = parseInt(prompt("введите 1-е число", "1-10"));
+  b = parseInt(prompt("введите 2-е число", "10-1"));
+  result = (a + b < 4) ? 'Мало' :
+    (a + b > 4) ? 'Много' :
+      (a + b == 4) ? 'Это правильный ответ!' : 'Число не введено';
+
+  document.write( result + '<br/>');
+
+  let login = prompt('Введите Имя', "Директор или Вася");
+  massage = (login == 'Вася') ? 'Привет' :
+    (login == 'Директор') ? 'Здравствуйте' :
+      (login == '') ? 'Нет логина' : ' ';
+
+  document.write( massage + '<br/>');
+
+  document.write("<br/>" + "<br/>");
+</script>
+
+
+<script>
+//прямоугольник
+
+  for (let i = 0; i < 5; i++) {
+    for (let a = 0; a < 20; a++) {
+      document.write("$");
+    }
+    document.write("<br/>")
+  }
+  document.write("<br/>" + "<br/>");
+
+  //треугольник
+
+
+  for (let i = 0; i < 10; i++) {
+    for (let a = 0 + i; a < 10; a++) {
+      document.write("$");
+    }
+    document.write("<br/>");
+  }
+
+  //треуг
+
+  for (let i = 0; i <= 10; i++) {
+    for (let a = 0 + i; a <= 10; a++) {
+      document.write("&nbsp;");
+    }
+    for (a = 0 + i; a < 2 * i; a++) {
+      document.write("*")
+    }
+    document.write("<br/>")
+  }
+  document.write("<br/>" + "<br/>");
+
+ //ромб
+  
+  for (let i = 0; i <= 9; i++) {
+    for (let a = 0 + i; a <= 9; a++) {
+      document.write("&nbsp;");
+    }
+    for (a = 0 + i; a < 2 * i; a++) {
+      document.write("$")
+    }
+    document.write("<br/>")
+  }
+
+  for (i = 8; i > 0; i--) {
+    for (a = 0 + i; a <= 9; a++) {
+      document.write("&nbsp;");
+    }
+    for (a = 0 + i; a < 2 * i; a++) {
+      document.write("$")
+    }
+    document.write("<br/>")
+  }
+
+
+</script>
+
+</body>
+</html>
