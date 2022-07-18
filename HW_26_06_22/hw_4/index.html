@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA4</title>
+</head>
+<body>
+  <!-- калькулятор -->
+<p>Введите число 1 :<input type="text" id="n1"></p>
+<p>Введите число 2 :<input type="text" id="n2"> </p>
+<button onclick="plus()">+</button>
+<button onclick="minus()">-</button>
+<button onclick="multiple()">*</button>
+<button onclick="division()">/</button>
+<hr>
+<p id="out">Ответ</p>
+  <script>
+    function plus(){
+      let num1, num2, result;
+      num1 = document.getElementById('n1').value;
+      num1 = parseInt(num1);
+      num2 = document.getElementById('n2').value; 
+      num2 = parseInt(num2);
+      result = num1 + num2;
+      document.getElementById('out').innerHTML = result;
+      if (typeof num1 !== 'number' || typeof num2 !=='number'){
+  return 'not a number';
+}
+    }
+    function minus(){
+      let num1, num2, result;
+      num1 = document.getElementById('n1').value;
+      num1 = parseInt(num1);
+      num2 = document.getElementById('n2').value; 
+      num2 = parseInt(num2);
+      result = num1 - num2;
+      document.getElementById('out').innerHTML = result;
+    }
+    function multiple(){
+      let num1, num2, result;
+      num1 = document.getElementById('n1').value;
+      num1 = parseInt(num1);
+      num2 = document.getElementById('n2').value; 
+      num2 = parseInt(num2);
+      result = num1 * num2;
+      document.getElementById('out').innerHTML = result;
+    }
+
+    function division(){
+      let num1, num2, result;
+      num1 = document.getElementById('n1').value;
+      num1 = parseInt(num1);
+      num2 = document.getElementById('n2').value; 
+      num2 = parseInt(num2);
+      result = num1 /num2;
+      document.getElementById('out').innerHTML = result;
+      if (num1 == 0 || num2 == 0) {
+    return alert("ошибка, значение не должно быть равно 0");
+  } else {
+    return num1 / num2;
+  }
+}
+
+  </script>
+
+<hr>
+  <br>
+  <br>
+
+  <!-- Проверка возраста. -->
+
+  <h3>Проверка возраста </h3>
+  <input type="button" value="checkAge"></input>
+  <p id="back"></p>
+
+  <script>
+    function checkAge(age) {
+age = (age > 18) ? true : confirm('Родители разрешили?');
+document.getElementById("back").innerHTML = `${age}`;
+}
+
+function inputAge() {
+years = parseInt(prompt("Сколько лет", ""));
+}
+
+
+btn = document.querySelector('input[type=button][value=checkAge]');
+btn.onclick = check;
+
+function check() {
+inputAge();
+checkAge(years);
+}
+
+</script> 
+<hr>
+
+<!-- перебор массива -->
+
+</script>
+<p id="newArr">Array</p>
+<script>
+  
+  const arr = [22, 45, 34, -67, 678, 222, 34]
+  const newArray = arr.map(arrItem =>{
+    return arrItem * 3
+  })
+
+
+  document.getElementById('newArr').innerHTML =newArray;
+
+
+</script>
+</body>
+</html>
