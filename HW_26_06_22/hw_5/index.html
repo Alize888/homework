@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA5</title>
+
+</head>
+<body>
+<script>
+        const doc= {
+        title: "",
+        body: "",
+        f00ter: "",
+        data: "",
+        app: {
+           title: "",
+           body: "",
+           f00ter: "",
+           data: "",
+        },
+    
+        print: function (arg) {
+           for (let key in arg) {
+            if ( key in this){
+                this[key] = arg[key]
+            }
+            for(let key2 in this) {
+                if (typeof(this[key2]) === "object"){
+                  if (key in this[key2]) {
+                    this[key2][key] = arg[key]
+                  }
+                }
+            }
+           }
+        },
+        show: function(){
+            for ( let key in this){
+                if(key !== "print"&& key !== "show" ){
+                    if( typeof(this[key]) === "object"){
+                  for ( let key2 in this[key] ){
+                    document.write( ` ${key2} : ${this[key][key2]}<br> `)
+                  }  
+                    } else {
+                        document.write(` ${key} : ${this[key]} <br>`)
+                    }
+                
+                   
+                }
+
+               
+            }
+        }
+    }
+    let obj = {
+        title: "Заголовок",
+        body: "Тело",
+        f00ter: "Футер",
+        data: "Дата",
+
+    }
+   doc.print(obj)
+   doc.show()
+  
+</script>
+
+</body>
+</html>
