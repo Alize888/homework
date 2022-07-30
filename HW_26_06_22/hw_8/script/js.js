@@ -28,15 +28,7 @@ btn.onclick = () => {
             }
         }
 
-        const getRandomColor = () => {
-            const h = Math.floor(Math.random() * 360),
-                  s = Math.floor(Math.random() * 100) + '%',
-                  l = Math.floor(Math.random() * 60) + '%';// выборка темных тонов.
-                                                         
-            return `hsl(${h},${s},${l})`;
-        };
 
     }
     
 }
-
