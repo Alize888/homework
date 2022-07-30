@@ -10,64 +10,74 @@
   <!-- калькулятор -->
 <p>Введите число 1 :<input type="text" id="n1"></p>
 <p>Введите число 2 :<input type="text" id="n2"> </p>
-<button onclick="plus()">+</button>
-<button onclick="minus()">-</button>
-<button onclick="multiple()">*</button>
-<button onclick="division()">/</button>
+
+<div class="btn">
+  <input type="button"  value="+"> 
+  <input type="button"  value="-">
+  <input type="button"  value="*">
+  <input type="button"  value="/">
+</div>
+
 <hr>
 <p id="out">Ответ</p>
   <script>
-    function plus(){
-      let num1, num2, result;
-      num1 = document.getElementById('n1').value;
-      num1 = parseInt(num1);
-      num2 = document.getElementById('n2').value; 
-      num2 = parseInt(num2);
-      result = num1 + num2;
-      document.getElementById('out').innerHTML = result;
-      if (typeof num1 !== 'number' || typeof num2 !=='number'){
-  return 'not a number';
-}
-    }
-    function minus(){
-      let num1, num2, result;
-      num1 = document.getElementById('n1').value;
-      num1 = parseInt(num1);
-      num2 = document.getElementById('n2').value; 
-      num2 = parseInt(num2);
-      result = num1 - num2;
-      document.getElementById('out').innerHTML = result;
-    }
-    function multiple(){
-      let num1, num2, result;
-      num1 = document.getElementById('n1').value;
-      num1 = parseInt(num1);
-      num2 = document.getElementById('n2').value; 
-      num2 = parseInt(num2);
-      result = num1 * num2;
-      document.getElementById('out').innerHTML = result;
-    }
+   
+   window.addEventListener("DOMContentLoaded", function () {
+    const out =  document.getElementById('out');
+    const btn = document.querySelector(".btn");
+    let result, sign, num1, num2;
+    const n1 = document.getElementById('n1');
+    const n2 = document.getElementById('n2');
 
-    function division(){
-      let num1, num2, result;
-      num1 = document.getElementById('n1').value;
-      num1 = parseInt(num1);
-      num2 = document.getElementById('n2').value; 
-      num2 = parseInt(num2);
-      result = num1 /num2;
-      document.getElementById('out').innerHTML = result;
+    btn.onclick = (el) => {
+      num1 = n1.value;
+      num2 = n2.value;
+    let sign = el.target.value ;
+    switch(sign){
+      case '+':
+         calculate( num1, num2, plus);
+         break;
+      case '-':
+         calculate(num1, num2, minus);
+         break;
+      case '*':
+        calculate(num1, num2, multiple);
+        break;
+      case '/':
+         calculate(num1, num2, division);
+         break;
+     }
+     }
+   
+   }) 
+   
+    function plus(num1, num2){
+      return  (+num1) + (+num2);
+
+    }
+    function minus(num1, num2){
+      return num1 - num2;
+      out.innerText = result;
+    }
+    function multiple(num1, num2){ 
+      return num1 * num2;
+    }
+    function division(num1, num2){
+    
       if (num1 == 0 || num2 == 0) {
-    return alert("ошибка, значение не должно быть равно 0");
+        return "error";
   } else {
     return num1 / num2;
   }
+}
+function calculate(num1, num2, callback){
+  result = callback(num1, num2 );
+    out.innerText = result;
 }
 
   </script>
 
 <hr>
-  <br>
-  <br>
 
   <!-- Проверка возраста. -->
 
